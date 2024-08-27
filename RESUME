@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #004d40;
+            border-bottom: 3px solid #00796b;
+            padding-bottom: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #00796b;
+            background: #e0f2f1;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f1f8e9;
+            border-left: 5px solid #c6ff00;
+            border-radius: 4px;
+        }
+        .contact-info a {
+            color: #00796b;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PANNEERSELVAM K</h1>
+            <H2>JUNIOUR SOFTWARE DEVELOPER<H2>
+        </header>
+        
+        <div class="section contact-info">
+            <h2>Contact Details</h2>
+            <p><strong>Address:</strong> 4/433, Poosaripatty (PO), Salem (Dt), Tamil Nadu - 636305</p>
+            <p><strong>Email:</strong> <a href="mailto:kpanneerpanneer123@gmail.com">kpanneerpanneer123@gmail.com</a></p>
+            <p><strong>Phone:</strong> (+91) 6374224662</p>
+        </div>
+        
+        <div class="section about-me">
+            <h2>About Me</h2>
+            <p>Highly motivated and detail-oriented computer science graduate seeking an entry-level web developer position. Eager to apply academic knowledge and technical skills in HTML, CSS, JavaScript, and React.js to contribute to innovative web development projects. Committed to continuous learning and professional growth while effectively collaborating in a team-oriented environment.</p>
+        </div>
+        
+        <div class="section technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+) for web development</li>
+                <li>Git & GitHub for version control</li>
+                <li>Figma & Adobe Illustrator</li>
+                <li>React Native</li>
+                <li>Presentation skills</li>
+            </ul>
+        </div>
+        
+        <div class="section languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+        
+        <div class="section certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Web Development Workshop, Sona College of Technology [2023]</li>
+                <li>Internship about Data Science, Imagecon India Private Limited [2022]</li>
+                <li>Foundation of Python, Imagecon India Private Limited [2022]</li>
+            </ul>
+        </div>
+        
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>R P Sarathy Institute of Technology, Salem</strong> - BE (2021-2025) - CGPA: 8.10</li>
+                <li><strong>Ganga Kaveri Matriculation Hr Sec School, Devattipatti</strong> - HSC (2020-2021) - 85%</li>
+                <li><strong>Mount Shervaroys Matriculation School, Poosaripatti</strong> - SSLC (2018-2019) - 75%</li>
+            </ul>
+        </div>
+        
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Developed an e-commerce website using HTML, CSS, and JavaScript for a private limited company named AMR Granites in Salem and also designed a portfolio for the same.</li>
+                <li>Mini projects like a webpage for Lab Attendance report and a login page.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
