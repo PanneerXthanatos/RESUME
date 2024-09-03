@@ -9,30 +9,31 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #e0f7fa, #b2ebf2);
             color: #333;
+            background-color: #f9f9f9;
         }
         .container {
             width: 80%;
             margin: auto;
             padding: 20px;
             background: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             margin-top: 20px;
         }
         h1 {
-            text-align: center;
-            color: #004d40;
-            border-bottom: 3px solid #00796b;
+            text-align: left;
+            color: #000;
+            border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         h2 {
-            text-align: center;
-            color: #00796b;
-            background: #e0f2f1;
-            padding: 10px;
-            border-radius: 4px;
+            text-align: left;
+            color: #000;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            margin: 20px 0;
         }
         .section {
             margin-bottom: 20px;
@@ -44,16 +45,22 @@
         .section ul li {
             margin-bottom: 10px;
             padding: 10px;
-            background: #f1f8e9;
-            border-left: 5px solid #c6ff00;
+            background: #ffffff;
+            border-left: 5px solid #ddd;
             border-radius: 4px;
         }
         .contact-info a {
-            color: #00796b;
+            color: #007bff;
             text-decoration: none;
         }
         .contact-info a:hover {
             text-decoration: underline;
+        }
+        .contact-info .social-links {
+            margin-top: 10px;
+        }
+        .contact-info .social-links a {
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -61,21 +68,26 @@
     <div class="container">
         <header>
             <h1>PANNEERSELVAM K</h1>
-            <H2>JUNIOUR SOFTWARE DEVELOPER<H2>
+            
         </header>
-        
+
         <div class="section contact-info">
             <h2>Contact Details</h2>
             <p><strong>Address:</strong> 4/433, Poosaripatty (PO), Salem (Dt), Tamil Nadu - 636305</p>
             <p><strong>Email:</strong> <a href="mailto:kpanneerpanneer123@gmail.com">kpanneerpanneer123@gmail.com</a></p>
             <p><strong>Phone:</strong> (+91) 6374224662</p>
+            <div class="social-links">
+                <p><strong>Find me on:</strong></p>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            </div>
         </div>
-        
+
         <div class="section about-me">
             <h2>About Me</h2>
             <p>Highly motivated and detail-oriented computer science graduate seeking an entry-level web developer position. Eager to apply academic knowledge and technical skills in HTML, CSS, JavaScript, and React.js to contribute to innovative web development projects. Committed to continuous learning and professional growth while effectively collaborating in a team-oriented environment.</p>
         </div>
-        
+
         <div class="section technical-skills">
             <h2>Technical Skills</h2>
             <ul>
@@ -86,7 +98,7 @@
                 <li>Presentation skills</li>
             </ul>
         </div>
-        
+
         <div class="section languages">
             <h2>Languages</h2>
             <ul>
@@ -94,7 +106,7 @@
                 <li>Tamil</li>
             </ul>
         </div>
-        
+
         <div class="section certifications">
             <h2>Certifications</h2>
             <ul>
@@ -103,7 +115,7 @@
                 <li>Foundation of Python, Imagecon India Private Limited [2022]</li>
             </ul>
         </div>
-        
+
         <div class="section education">
             <h2>Education</h2>
             <ul>
@@ -112,7 +124,7 @@
                 <li><strong>Mount Shervaroys Matriculation School, Poosaripatti</strong> - SSLC (2018-2019) - 75%</li>
             </ul>
         </div>
-        
+
         <div class="section projects">
             <h2>Projects</h2>
             <ul>
